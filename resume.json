@@ -1,54 +1,58 @@
 {
   "description": "resume json for patrick",
-  "major": [
+  "patrick": [
     {
-      "area": [
-        "human-computer-interaction",
-        "multimedia"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "school": [
-        "new york university",
-        "loyola marymount university"
-      ]
-    }
-  ],
-  "contact": [
-    {
-      "method": [
+      "major": [
         {
-          "email": "fake.email@gmail.com",
-          "mobile": "fake number",
-          "linkedin": "link"
+          "area": [
+            "human-computer-interaction",
+            "multimedia"
+          ]
         }
-      ]
-    }
-  ],
-  "personal": [
-    {
-      "site": [
+      ],
+      "education": [
         {
-          "website": "link",
-          "writing": "link"
+          "school": [
+            "new york university",
+            "loyola marymount university"
+          ]
         }
-      ]
+      ],
+      "contact": [
+        {
+          "method": [
+            {
+              "email": "presto.patrick@gmail.com",
+              "mobile": "8182090344",
+              "linkedin": "link"
+            }
+          ]
+        }
+      ],
+      "personal": [
+        {
+          "site": [
+            {
+              "website": "link",
+              "writing": "link"
+            }
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "company": [
+            "Tech & The City",
+            "Square Inc"
+          ]
+        }
+      ],
+      "role": {
+        "name": [
+          "dispute product analyst",
+          "compliance product manager"
+        ]
+      }
     }
-  ],
-  "experience": [
-    {
-      "company": [
-        "Tech & The City",
-        "Square Inc"
-      ]
-    }
-  ],
-  "role": {
-    "name": [
-      "dispute product analyst",
-      "compliance product manager"
-    ]
-  }
+  ]
 }
