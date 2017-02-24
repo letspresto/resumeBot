@@ -1,0 +1,54 @@
+{
+  "description": "resume json for patrick",
+  "major": [
+    {
+      "area": [
+        "human-computer-interaction",
+        "multimedia"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": [
+        "new york university",
+        "loyola marymount university"
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "method": [
+        {
+          "email": "fake.email@gmail.com",
+          "mobile": "fake number",
+          "linkedin": "link"
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "site": [
+        {
+          "website": "link",
+          "writing": "link"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": [
+        "Tech & The City",
+        "Square Inc"
+      ]
+    }
+  ],
+  "role": {
+    "name": [
+      "dispute product analyst",
+      "compliance product manager"
+    ]
+  }
+}
