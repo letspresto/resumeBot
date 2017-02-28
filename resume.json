@@ -2,20 +2,16 @@
   "description": "resume json for patrick",
   "patrick": [
     {
-      "major": [
-        {
-          "area": [
-            "human-computer-interaction",
-            "multimedia"
-          ]
-        }
-      ],
       "education": [
         {
-          "school": [
-            "new york university",
-            "loyola marymount university"
-          ]
+          "school": "loyola marymount university",
+          "major": "multimedia",
+          "degree": "undergraduate"
+        },
+        {
+          "school": "new york university",
+          "major": "human-computer-interaction",
+          "degree": "masters"
         }
       ],
       "contact": {
