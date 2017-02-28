@@ -6,12 +6,14 @@
         {
           "school": "loyola marymount university",
           "major": "multimedia",
-          "degree": "undergraduate"
+          "degree": "undergraduate",
+          "graduation": "May 2009"
         },
         {
           "school": "new york university",
           "major": "human-computer-interaction",
-          "degree": "masters"
+          "degree": "masters",
+          "graduation": "May 2018"
         }
       ],
       "contact": {
@@ -23,18 +25,33 @@
       },
       "experience": [
         {
-          "company": [
-            "Tech & The City",
-            "Square Inc"
+          "company": "square inc",
+          "role": "dispute product analyst",
+          "responsibilities": [
+            "Owned initial product development for the chargeback operations team",
+            "Defined and wrote specs for chargeback management system",
+            "Prioritized product features increasing customer response rate for disputes to ~40% from 25% with improved secure web forms",
+            "Led development for a buyer receipt search tool resulting in ~7000 unique visits/ week at launch: www.squareup.com/receipts",
+            "Initiated and scoped development of an automated receipt ful llment tool which resulted in savings of 12/hours a week for the operations team"
           ]
+        },
+        {
+          "company": "square inc",
+          "role": "product manager",
+          "responsibilities": [
+            "Managed compliance related partnerships, operations, and product for P2P money-transfer product, Square Cash",
+            "Developed tools for operations team to conduct monitoring of transfer activity",
+            "Systemized and enhanced Know Your Customer operations using machine learning heuristics",
+            "Built and automated email reports on money transfer activity for regulatory (MTL) compliance audits",
+            "Developed compliance requirements and product specifications for Bitcoin acceptance on Square’s e-commerce product; Square Market",
+            "Supported multiple cross-functional launches of products: Square Payroll, Employee Management, Online Store, Payments API"
+          ]
+        },
+        {
+          "company": "Shapeways",
+          "role": "product consultant"
         }
-      ],
-      "role": {
-        "name": [
-          "dispute product analyst",
-          "compliance product manager"
-        ]
-      }
+      ]
     }
   ]
 }
