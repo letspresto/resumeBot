@@ -18,27 +18,13 @@
           ]
         }
       ],
-      "contact": [
-        {
-          "method": [
-            {
-              "email": "presto.patrick@gmail.com",
-              "mobile": "8182090344",
-              "linkedin": "link"
-            }
-          ]
-        }
-      ],
-      "personal": [
-        {
-          "site": [
-            {
-              "website": "link",
-              "writing": "link"
-            }
-          ]
-        }
-      ],
+      "contact": {
+        "email": "presto.patrick@gmail.com",
+        "mobile": "8182090344",
+        "linkedin": "link",
+        "website": "link",
+        "writing": "link"
+      },
       "experience": [
         {
           "company": [
