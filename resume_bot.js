@@ -30,6 +30,29 @@ function onData(error, streamEvent) {
     if (Object.keys(streamEvent).length === 0) {
         return;
     }
+    //Tweet && follow back when people follow you
+    else if (streamEvent.hasOwnProperty('event')) {
+        var followerHandle = streamEvent['source']['screen_name'];
+        // a new follower!
+        if (streamEvent['event'] == 'follow') {
+            console.log("followed by @" + followerHandle);
+            twitter.statuses(
+                "update",
+               {"status": "@" + followerHandle + "! DM me if you want to ask questions about my experience!"},
+               accessToken,
+               tokenSecret,
+               function (err, data, resp) { console.log(err); }
+            );
+            //auto-follow when someone follows you
+            twitter.friendships(
+                "create",
+                {"screen_name": followerHandle,"follow": true},
+                accessToken,
+                tokenSecret,
+                function(err,data,resp){console.log(err);}
+            );
+        }
+    }      
 
     // 'direct_message' key indicates this is an incoming direct message
     else if (streamEvent.hasOwnProperty('direct_message')) {
